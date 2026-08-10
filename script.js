@@ -121,6 +121,22 @@ document.querySelectorAll(".hero-system, .case-tile, .course-card").forEach((car
   });
 });
 
+const courseSearch = document.querySelector("[data-course-search]");
+const courseCards = document.querySelectorAll("[data-course-card]");
+
+courseSearch?.addEventListener("input", () => {
+  const query = courseSearch.value.trim().toLowerCase();
+  courseCards.forEach((card) => {
+    const searchableText = `${card.textContent} ${card.dataset.courseKeywords || ""}`.toLowerCase();
+    card.hidden = query.length > 0 && !searchableText.includes(query);
+  });
+});
+
+courseSearch?.closest("form")?.addEventListener("submit", (event) => {
+  event.preventDefault();
+  document.querySelector("#courses")?.scrollIntoView({ behavior: "smooth", block: "start" });
+});
+
 const bookingServices = {
   web: {
     title: "Web Development",

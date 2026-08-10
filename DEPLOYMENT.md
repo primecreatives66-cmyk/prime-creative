@@ -38,3 +38,9 @@ https://your-domain.com/admin.html
 ```
 
 The admin page will ask for `ADMIN_PASSWORD` before saving settings, services, courses, and uploads.
+
+For local backend testing, run:
+
+```text
+node local-server.js
+```

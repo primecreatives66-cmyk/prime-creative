@@ -146,7 +146,7 @@ const server = http.createServer(async (req, res) => {
     if (url.pathname.startsWith("/api/")) return await handleApi(req, res, url);
     return serveStatic(req, res, url);
   } catch (error) {
-    return send(res, 500, { error: error.message || "Server error" });
+    return send(res, error.status || 500, { error: error.message || "Server error" });
   }
 });
 

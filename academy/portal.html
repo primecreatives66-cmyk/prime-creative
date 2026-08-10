@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>Student Portal | Prime Creative Academy</title>
+  </head>
+  <body data-requires-student-login>
+    <header class="site-header">
+      <a class="brand" href="./"><span class="brand-mark"><span></span></span><span><strong>Prime Creative</strong><small>Student Portal</small></span></a>
+      <nav class="desktop-nav"><a href="./">Academy Home</a><a href="./#courses">Courses</a><a href="./ai-animation.html">AI Animation</a><a class="active" href="./portal.html">Student Portal</a><a href="./login.html?next=portal.html">Login</a><a href="../index.html">Prime Creative</a></nav>
+      <a class="nav-cta" href="./login.html?next=portal.html">Login</a>
+      <button class="menu-button" data-menu-button><span></span><span></span></button>
+    </header>
+    <div class="mobile-menu" data-menu><a href="./">Academy Home</a><a href="./#courses">Courses</a><a href="./ai-animation.html">AI Animation</a><a href="./portal.html">Student Portal</a><a href="./login.html?next=portal.html">Login</a><a href="../index.html">Prime Creative</a></div>
+
+    <main>
+      <section class="portal-hero section-black">
+        <div class="container">
+          <div class="reveal">
+            <p class="eyebrow">Student portal</p>
+            <h1>Your Academy workspace.</h1>
+            <p class="lead">Study online, save offline resources, track module progress, receive course updates and continue learning from any device.</p>
+          </div>
+          <div class="portal-status reveal">
+            <p class="eyebrow">Access</p>
+            <h2 data-portal-status>Checking login...</h2>
+            <p data-portal-summary>Real launch should use Supabase Auth, protected routes and Paystack payment verification.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="container portal-grid">
+          <aside class="portal-sidebar reveal">
+            <a class="active" href="#courses">My Courses</a>
+            <a href="#modules">Modules</a>
+            <a href="#downloads">Downloads</a>
+            <a href="#updates">Updates</a>
+            <a href="#assignments">Assignments</a>
+            <a href="#certificates">Certificates</a>
+            <a href="#support">Support</a>
+          </aside>
+
+          <div class="portal-main">
+            <section id="courses" class="portal-section reveal">
+              <div class="section-head"><div><p class="eyebrow">My Courses</p><h2>Continue learning.</h2></div><a href="./">Browse courses</a></div>
+              <div class="portal-course-list" data-portal-courses></div>
+            </section>
+
+            <section id="modules" class="portal-section reveal">
+              <div class="section-head"><div><p class="eyebrow">Module Library</p><h2>Every uploaded course is broken into study modules.</h2></div><a href="./course-player.html">Open reader</a></div>
+              <div class="module-track" data-portal-modules></div>
+            </section>
+
+            <section id="downloads" class="portal-section reveal">
+              <p class="eyebrow">Downloads</p>
+              <div class="portal-card-row" data-portal-downloads></div>
+            </section>
+
+            <section id="updates" class="portal-section reveal">
+              <p class="eyebrow">Course Updates</p>
+              <div class="portal-card-row" data-portal-updates></div>
+            </section>
+
+            <section id="assignments" class="portal-section reveal">
+              <p class="eyebrow">Assignments</p>
+              <div class="portal-card-row">
+                <article class="module-card"><h3>Animation scene brief</h3><p>Create a short scene plan with style, prompts and shot list.</p><button class="button button-primary" type="button">Submit assignment</button></article>
+                <article class="module-card"><h3>Final project</h3><p>Upload or link your final AI animation project when submission is connected.</p><button class="button button-light" type="button">Coming soon</button></article>
+              </div>
+            </section>
+
+            <section id="certificates" class="portal-section reveal">
+              <p class="eyebrow">Certificates</p>
+              <article class="module-card"><h3>Certificate locked</h3><p>Certificates become available when course completion and instructor approval are connected.</p></article>
+            </section>
+
+            <section id="support" class="portal-section reveal">
+              <p class="eyebrow">Support</p>
+              <article class="enroll-card"><h2>Need help?</h2><form><input placeholder="Full name" /><input placeholder="Email address" /><select><option>Course access</option><option>Payment issue</option><option>Assignment support</option><option>Technical problem</option></select><textarea placeholder="Tell us what you need help with"></textarea><button class="button button-primary" type="button">Send support request <span>-></span></button></form></article>
+            </section>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer"><strong>Keep learning.</strong><nav><a href="./">Academy</a><a href="./ai-animation.html">AI Animation</a><a href="./login.html">Login</a></nav></footer>
+    <script src="../script.js"></script>
+  </body>
+</html>

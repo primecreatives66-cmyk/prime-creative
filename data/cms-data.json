@@ -1,0 +1,193 @@
+{
+  "settings": {
+    "brandName": "Prime Creative",
+    "whatsapp": "09162902223",
+    "email": "primecreative66@gmail.com",
+    "domain": "http://127.0.0.1:5174",
+    "paystackPublicKey": "",
+    "supabaseUrl": "",
+    "supabaseAnonKey": ""
+  },
+  "services": [
+    {
+      "id": "web",
+      "title": "Web Development",
+      "copy": "Premium websites, landing pages and listing platforms.",
+      "options": [
+        {
+          "name": "Landing Page",
+          "price": "From NGN 250,000",
+          "description": "Single-page campaign or offer page."
+        },
+        {
+          "name": "Business Website",
+          "price": "From NGN 500,000",
+          "description": "Multi-page company website with contact flow."
+        },
+        {
+          "name": "Real Estate / Listing Platform",
+          "price": "From NGN 1,200,000",
+          "description": "Property listings, details, inquiries and admin-ready structure."
+        }
+      ]
+    },
+    {
+      "id": "app",
+      "title": "App Development",
+      "copy": "Custom tools, dashboards, MVPs and workflow platforms.",
+      "options": [
+        {
+          "name": "MVP Web App",
+          "price": "From NGN 1,500,000",
+          "description": "Core product flow, interface and launch-ready prototype."
+        },
+        {
+          "name": "Business Dashboard",
+          "price": "From NGN 1,000,000",
+          "description": "Internal tool for managing operations or content."
+        },
+        {
+          "name": "Full Product Build",
+          "price": "Quote after scope",
+          "description": "Custom platform priced after discovery."
+        }
+      ]
+    },
+    {
+      "id": "ai",
+      "title": "AI & Automation",
+      "copy": "AI assistants, workflow automation and business support systems.",
+      "options": [
+        {
+          "name": "AI Chatbot",
+          "price": "From NGN 450,000",
+          "description": "Website or business assistant for FAQs and lead capture."
+        },
+        {
+          "name": "Workflow Automation",
+          "price": "From NGN 350,000",
+          "description": "Connect repetitive tasks into a smoother process."
+        },
+        {
+          "name": "Custom AI System",
+          "price": "Quote after scope",
+          "description": "Special AI build based on business requirements."
+        }
+      ]
+    },
+    {
+      "id": "production",
+      "title": "Creative Production",
+      "copy": "Cinematic video production for brands, products, campaigns and events.",
+      "options": [
+        {
+          "name": "Social Content Shoot",
+          "price": "From NGN 250,000",
+          "description": "Short-form content package for social platforms."
+        },
+        {
+          "name": "Brand Film",
+          "price": "From NGN 750,000",
+          "description": "Cinematic story for a company, product or campaign."
+        },
+        {
+          "name": "Event Production",
+          "price": "Quote after scope",
+          "description": "Coverage priced by event size and deliverables."
+        }
+      ]
+    },
+    {
+      "id": "animation",
+      "title": "AI Animation",
+      "copy": "AI-assisted animated stories, explainers, product visuals and creative films.",
+      "options": [
+        {
+          "name": "Short AI Animation",
+          "price": "From NGN 300,000",
+          "description": "Short animated scene or visual story."
+        },
+        {
+          "name": "Product / Explainer Animation",
+          "price": "From NGN 500,000",
+          "description": "Animation that explains an offer, product or idea."
+        },
+        {
+          "name": "Music / Story Visual",
+          "price": "Quote after scope",
+          "description": "Creative animated visual priced by duration and complexity."
+        }
+      ]
+    },
+    {
+      "id": "design",
+      "title": "Motion & Design",
+      "copy": "Identity systems, motion graphics and campaign visuals.",
+      "options": [
+        {
+          "name": "Brand Identity Starter",
+          "price": "From NGN 300,000",
+          "description": "Logo direction, colors, typography and key brand assets."
+        },
+        {
+          "name": "Motion Graphics Pack",
+          "price": "From NGN 250,000",
+          "description": "Animated graphics package for social or video use."
+        },
+        {
+          "name": "Campaign Visual System",
+          "price": "From NGN 600,000",
+          "description": "Design language for a launch, offer or campaign."
+        }
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": "ai-animation",
+      "title": "AI Animation Bootcamp",
+      "price": "NGN 50,000",
+      "status": "published",
+      "modules": [
+        {
+          "title": "Story and Creative Direction",
+          "duration": "42 min"
+        },
+        {
+          "title": "Prompt Systems and Consistency",
+          "duration": "55 min"
+        },
+        {
+          "title": "Image and Video Generation",
+          "duration": "64 min"
+        },
+        {
+          "title": "Edit, Sound and Export",
+          "duration": "48 min"
+        }
+      ]
+    },
+    {
+      "id": "ai-coding",
+      "title": "AI Coding",
+      "price": "NGN 40,000",
+      "status": "draft",
+      "modules": [
+        {
+          "title": "Product Planning",
+          "duration": "35 min"
+        },
+        {
+          "title": "Interface Build",
+          "duration": "58 min"
+        },
+        {
+          "title": "Debug and Deploy",
+          "duration": "45 min"
+        }
+      ]
+    }
+  ],
+  "uploads": [],
+  "bookings": []
+}

@@ -3940,3 +3940,306 @@ main > section:nth-of-type(odd) .service-menu-card {
     font-size: .72rem;
   }
 }
+
+/* Unified soft block language */
+.stat-strip article,
+.directory-card,
+.capability-list article,
+.info-card,
+.service-detail,
+.placeholder-block,
+.course-card,
+.module-card,
+.faq-card,
+.enroll-card,
+.price-card,
+.access-card,
+.service-menu-card,
+.booking-panel,
+.portal-course,
+.case-tile {
+  border: 0;
+  border-radius: 28px;
+  background: var(--color-paper);
+  box-shadow: none;
+}
+
+.capability-list article,
+.info-card,
+.service-detail,
+.placeholder-block,
+.course-card,
+.module-card,
+.faq-card,
+.enroll-card,
+.price-card,
+.access-card,
+.service-menu-card,
+.booking-panel,
+.portal-course,
+.case-tile {
+  min-height: 230px;
+  padding: 28px;
+}
+
+.stat-strip article:hover,
+.directory-card:hover,
+.capability-list article:hover,
+.info-card:hover,
+.service-detail:hover,
+.course-card:hover,
+.module-card:hover,
+.enroll-card:hover,
+.price-card:hover,
+.access-card:hover,
+.service-menu-card:hover,
+.booking-panel:hover,
+.portal-course:hover,
+.case-tile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 50px rgba(29,29,31,.06);
+}
+
+.directory-card span,
+.capability-list span,
+.service-detail span,
+.case-tile p,
+.course-card .tag,
+.price-card .price,
+.portal-course span,
+.placeholder-block strong,
+.motion-badge,
+.booking-service span,
+.module-card > span,
+.faq-card > span,
+.info-card > span {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 10px 18px;
+  background: #fff1e6;
+  color: #b84a00;
+  font-size: .92rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.capability-list span,
+.service-detail span,
+.case-tile span {
+  margin-bottom: 30px;
+}
+
+.directory-card span,
+.case-tile p,
+.course-card .tag,
+.placeholder-block strong,
+.portal-course span {
+  margin-bottom: 28px;
+}
+
+.stat-strip strong,
+.stat-strip span,
+.directory-card h3,
+.capability-list h3,
+.info-card h3,
+.service-detail h3,
+.placeholder-block span,
+.course-card h3,
+.module-card h3,
+.faq-card h3,
+.enroll-card h3,
+.price-card h3,
+.access-card h3,
+.service-menu-card h3,
+.booking-panel h3,
+.portal-course h3,
+.case-tile h3 {
+  color: var(--color-primary-ink);
+}
+
+.directory-card p,
+.capability-list p,
+.info-card p,
+.service-detail p,
+.placeholder-block span,
+.course-card p,
+.module-card p,
+.faq-card p,
+.price-card p,
+.access-card p,
+.service-menu-card p,
+.booking-panel p,
+.portal-course p,
+.case-tile small {
+  color: var(--color-mid-gray);
+  font-size: clamp(1rem, 1.35vw, 1.22rem);
+  line-height: 1.42;
+}
+
+.directory-card h3,
+.capability-list h3,
+.info-card h3,
+.service-detail h3,
+.course-card h3,
+.module-card h3,
+.faq-card h3,
+.access-card h3,
+.service-menu-card h3,
+.portal-course h3,
+.case-tile h3 {
+  font-size: clamp(1.55rem, 2.5vw, 2.15rem);
+  line-height: 1.08;
+  letter-spacing: 0;
+}
+
+.case-tile {
+  justify-content: flex-start;
+  gap: 16px;
+}
+
+.case-tile span {
+  background: transparent;
+  color: rgba(29,29,31,.18);
+  padding: 0;
+  font-size: clamp(2rem, 4vw, 3.4rem);
+}
+
+.case-tile.selected {
+  background: var(--color-paper);
+}
+
+.section-black .case-tile,
+.section-black .capability-list article,
+.section-black .info-card,
+.section-black .service-detail,
+.section-black .placeholder-block,
+.section-black .course-card,
+.section-black .module-card,
+.section-black .faq-card,
+.section-black .access-card,
+.section-black .service-menu-card,
+.section-black .portal-course {
+  background: #ffffff;
+  color: var(--color-primary-ink);
+}
+
+.section-black .case-tile h3,
+.section-black .case-tile small,
+.section-black .case-tile span,
+.section-black .case-tile p {
+  color: inherit;
+}
+
+.section-black .case-tile p {
+  color: #b84a00;
+}
+
+.section-black .case-tile small {
+  color: var(--color-mid-gray);
+}
+
+@media (max-width: 680px) {
+  .capability-list article,
+  .info-card,
+  .service-detail,
+  .placeholder-block,
+  .course-card,
+  .module-card,
+  .faq-card,
+  .enroll-card,
+  .price-card,
+  .access-card,
+  .service-menu-card,
+  .booking-panel,
+  .portal-course,
+  .case-tile {
+    min-height: 168px;
+    border-radius: 24px;
+    padding: 18px;
+  }
+
+  .directory-card span,
+  .capability-list span,
+  .service-detail span,
+  .case-tile p,
+  .course-card .tag,
+  .price-card .price,
+  .portal-course span,
+  .placeholder-block strong,
+  .motion-badge,
+  .booking-service span,
+  .module-card > span,
+  .faq-card > span,
+  .info-card > span {
+    padding: 8px 14px;
+    font-size: .78rem;
+  }
+
+  .capability-list span,
+  .service-detail span,
+  .case-tile span,
+  .directory-card span,
+  .case-tile p,
+  .course-card .tag,
+  .placeholder-block strong,
+  .portal-course span {
+    margin-bottom: 18px;
+  }
+
+  .directory-card h3,
+  .capability-list h3,
+  .info-card h3,
+  .service-detail h3,
+  .course-card h3,
+  .module-card h3,
+  .faq-card h3,
+  .access-card h3,
+  .service-menu-card h3,
+  .portal-course h3,
+  .case-tile h3 {
+    font-size: clamp(1.25rem, 6vw, 1.65rem);
+  }
+
+  .directory-card p,
+  .capability-list p,
+  .info-card p,
+  .service-detail p,
+  .placeholder-block span,
+  .course-card p,
+  .module-card p,
+  .faq-card p,
+  .price-card p,
+  .access-card p,
+  .service-menu-card p,
+  .booking-panel p,
+  .portal-course p,
+  .case-tile small {
+    font-size: .92rem;
+    line-height: 1.4;
+  }
+}
+
+@media (max-width: 430px) {
+  .capability-list article,
+  .info-card,
+  .service-detail,
+  .placeholder-block,
+  .course-card,
+  .module-card,
+  .faq-card,
+  .enroll-card,
+  .price-card,
+  .access-card,
+  .service-menu-card,
+  .booking-panel,
+  .portal-course,
+  .case-tile {
+    min-height: 150px;
+    border-radius: 22px;
+    padding: 16px;
+  }
+}

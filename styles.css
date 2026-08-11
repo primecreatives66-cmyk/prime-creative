@@ -3017,6 +3017,35 @@ main > section:nth-of-type(odd) .service-menu-card {
   }
 }
 
+/* Official Prime Creatives Academy logo mark */
+.brand-mark {
+  overflow: hidden !important;
+  border-radius: 10px !important;
+  background: #ffffff url("/assets/prime-logo-mark.png") center / 100% 100% no-repeat !important;
+  box-shadow: 0 0 0 1px rgba(29,29,31,.08) !important;
+}
+
+.brand-mark span,
+.brand-mark span::before {
+  display: none !important;
+}
+
+.site-header .brand {
+  gap: 10px;
+}
+
+.site-header .brand strong {
+  letter-spacing: 0;
+}
+
+@media (max-width: 680px) {
+  .brand-mark {
+    width: 34px !important;
+    height: 34px !important;
+    border-radius: 10px !important;
+  }
+}
+
 /* Compact premium rhythm pass */
 section,
 .portal-section {

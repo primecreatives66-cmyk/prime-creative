@@ -3017,6 +3017,292 @@ main > section:nth-of-type(odd) .service-menu-card {
   }
 }
 
+/* Site-wide centered section headings and complete soft-card coverage */
+.section-head {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section-head h2,
+.section-head p,
+.section-head .lead {
+  margin-inline: auto;
+  text-align: center;
+}
+
+.section-head > a {
+  margin-inline: auto;
+}
+
+.statement .intro-grid {
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: center;
+  text-align: center;
+}
+
+.statement .intro-grid > div:first-child,
+.statement .intro-grid h2,
+.statement .intro-grid .lead {
+  margin-inline: auto;
+  text-align: center;
+}
+
+.statement .stat-strip {
+  width: min(100%, 880px);
+}
+
+.founder-meta article,
+.founder-pillars article,
+.founder-projects .project-row,
+.case-facts,
+.portal-status,
+.portal-sidebar,
+.module-group,
+.lesson-sidebar,
+.lesson-reader,
+.lesson-task,
+.lesson-link,
+.course-strip a,
+.booking-service,
+.booking-option,
+.booking-summary,
+.admin-metrics article,
+.admin-panel,
+.admin-content > section,
+.admin-booking,
+.admin-manage-card,
+.admin-card,
+.price-options,
+.contact-form,
+.booking-detail-form,
+.admin-form,
+.founder-note,
+.expertise-cloud span,
+.lesson-card,
+.lesson-board {
+  border: 0;
+  border-radius: 28px;
+  background: var(--color-paper);
+  color: var(--color-primary-ink);
+  box-shadow: none;
+}
+
+.founder-meta article,
+.founder-pillars article,
+.founder-projects .project-row,
+.case-facts,
+.portal-status,
+.portal-sidebar,
+.module-group,
+.lesson-sidebar,
+.lesson-reader,
+.lesson-task,
+.admin-metrics article,
+.admin-panel,
+.admin-content > section,
+.admin-booking,
+.admin-manage-card,
+.admin-card,
+.price-options,
+.contact-form,
+.booking-detail-form,
+.admin-form,
+.founder-note,
+.lesson-card,
+.lesson-board {
+  padding: 28px;
+}
+
+.lesson-link,
+.course-strip a,
+.booking-service,
+.booking-option {
+  padding: 18px;
+}
+
+.founder-meta span,
+.founder-pillars span,
+.founder-projects .project-row > span,
+.case-facts a,
+.portal-status span,
+.module-group span,
+.lesson-link span,
+.lesson-meta span,
+.booking-service span,
+.booking-option span,
+.admin-metrics span,
+.admin-status-pill span,
+.admin-chip-list span,
+.expertise-cloud span,
+.price-options span,
+.course-strip a.active,
+.course-strip a:hover {
+  display: inline-flex;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  border-radius: 999px;
+  padding: 10px 18px;
+  background: #fff1e6;
+  color: #b84a00;
+  font-size: .9rem;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+.founder-meta span,
+.founder-pillars span,
+.founder-projects .project-row > span,
+.portal-status span,
+.module-group span,
+.admin-metrics span {
+  margin-bottom: 18px;
+}
+
+.founder-meta strong,
+.founder-pillars h3,
+.founder-projects .project-row h3,
+.portal-status strong,
+.module-group h3,
+.lesson-reader h2,
+.lesson-task strong,
+.booking-option strong,
+.booking-summary strong,
+.admin-metrics strong,
+.admin-panel h2,
+.admin-content > section h2,
+.admin-booking strong,
+.admin-manage-card h3 {
+  color: var(--color-primary-ink);
+}
+
+.founder-pillars p,
+.founder-projects .project-row p,
+.portal-status p,
+.module-group p,
+.lesson-reader p,
+.lesson-task p,
+.lesson-link small,
+.booking-service small,
+.booking-option small,
+.booking-summary p,
+.admin-booking p,
+.founder-note,
+.case-facts p,
+.case-facts li {
+  color: var(--color-mid-gray);
+}
+
+.section-black .founder-meta article,
+.section-black .founder-pillars article,
+.section-black .founder-projects .project-row,
+.section-black .portal-status,
+.section-black .module-group,
+.section-black .lesson-sidebar,
+.section-black .lesson-reader,
+.section-black .lesson-task,
+.section-black .course-strip a {
+  background: #ffffff;
+  color: var(--color-primary-ink);
+}
+
+.course-strip a {
+  min-height: 88px;
+  align-items: center;
+  color: var(--color-primary-ink);
+  font-size: clamp(1.15rem, 2vw, 1.55rem);
+}
+
+.course-strip a.active,
+.course-strip a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 50px rgba(29,29,31,.06);
+}
+
+.lesson-link:hover,
+.lesson-link.is-complete,
+.booking-service:hover,
+.booking-service.is-active,
+.booking-option:hover,
+.booking-option.is-selected,
+.founder-meta article:hover,
+.founder-pillars article:hover,
+.founder-projects .project-row:hover,
+.admin-metrics article:hover,
+.admin-panel:hover,
+.admin-manage-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 18px 50px rgba(29,29,31,.06);
+}
+
+@media (max-width: 680px) {
+  .section-head {
+    gap: 12px;
+  }
+
+  .section-head h2 {
+    max-width: 10.5em;
+  }
+
+  .founder-meta article,
+  .founder-pillars article,
+  .founder-projects .project-row,
+  .case-facts,
+  .portal-status,
+  .portal-sidebar,
+  .module-group,
+  .lesson-sidebar,
+  .lesson-reader,
+  .lesson-task,
+  .admin-metrics article,
+  .admin-panel,
+  .admin-content > section,
+  .admin-booking,
+  .admin-manage-card,
+  .admin-card,
+  .price-options,
+  .contact-form,
+  .booking-detail-form,
+  .admin-form,
+  .founder-note,
+  .lesson-card,
+  .lesson-board {
+    border-radius: 24px;
+    padding: 18px;
+  }
+
+  .lesson-link,
+  .course-strip a,
+  .booking-service,
+  .booking-option {
+    border-radius: 22px;
+    padding: 14px;
+  }
+
+  .founder-meta span,
+  .founder-pillars span,
+  .founder-projects .project-row > span,
+  .case-facts a,
+  .portal-status span,
+  .module-group span,
+  .lesson-link span,
+  .lesson-meta span,
+  .booking-service span,
+  .booking-option span,
+  .admin-metrics span,
+  .admin-status-pill span,
+  .admin-chip-list span,
+  .expertise-cloud span,
+  .price-options span {
+    padding: 8px 14px;
+    font-size: .78rem;
+  }
+}
+
 .directory-card span,
 .booking-service span,
 .lesson-link span,

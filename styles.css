@@ -2786,6 +2786,35 @@ main > section:nth-of-type(odd) .service-menu-card {
   }
 }
 
+.directory-card span,
+.booking-service span,
+.lesson-link span,
+.portal-course span,
+.module-group > div .eyebrow,
+.course-card .tag,
+.tag-pill {
+  background: #fff3e8;
+  color: var(--color-ember);
+}
+
+.directory-card span,
+.course-card .tag,
+.tag-pill,
+.module-group > div .eyebrow {
+  display: inline-flex;
+  width: fit-content;
+  border-radius: 999px;
+  padding: 8px 12px;
+}
+
+.booking-service.is-active span,
+.lesson-link.is-complete span,
+.portal-sidebar a.active,
+.portal-sidebar a:hover {
+  background: var(--color-prime-action);
+  color: #ffffff;
+}
+
 @media (max-width: 680px) {
   .site-header {
     min-height: 52px;

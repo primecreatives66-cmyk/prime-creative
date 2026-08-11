@@ -2183,7 +2183,7 @@ p { font-family: Manrope, system-ui, sans-serif; line-height: 1.72; }
   --color-indigo: #596680;
   --color-midnight: #2e3642;
   --color-citrus-gradient: #3b3b23;
-  --gradient-citrus-gradient: linear-gradient(184deg, #1d1d1f 0%, #dfe74f 33%, #5a7e2 100%);
+  --gradient-citrus-gradient: linear-gradient(184deg, #1d1d1f 0%, #dfe74f 33%, #5a7e20 100%);
 
   /* Typography - Font Families */
   --font-sf-pro-display: "SF Pro Display", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -2219,6 +2219,128 @@ p { font-family: Manrope, system-ui, sans-serif; line-height: 1.72; }
   --text-display: 96px;
   --leading-display: 100;
   --tracking-display: -1.44px;
+
+  /* Typography - Named Steps */
+  --type-xs-font: var(--font-sf-pro-text);
+  --type-xs-size: 8px;
+  --type-xs-weight: 400;
+  --type-xs-line: 1.43;
+  --type-xs-2-font: var(--font-sf-pro-text);
+  --type-xs-2-size: 12px;
+  --type-xs-2-weight: 400;
+  --type-xs-2-line: 1;
+  --type-xs-3-font: var(--font-sf-pro-text);
+  --type-xs-3-size: 12px;
+  --type-xs-3-weight: 400;
+  --type-xs-3-line: 1.83;
+  --type-xs-4-font: var(--font-sf-pro-text);
+  --type-xs-4-size: 12px;
+  --type-xs-4-weight: 400;
+  --type-xs-4-line: 1.33;
+  --type-xs-5-font: var(--font-sf-pro-text);
+  --type-xs-5-size: 12px;
+  --type-xs-5-weight: 600;
+  --type-xs-5-line: 1.33;
+  --type-sm-font: var(--font-sf-pro-text);
+  --type-sm-size: 14px;
+  --type-sm-weight: 400;
+  --type-sm-line: 1.43;
+  --type-sm-2-font: var(--font-sf-pro-text);
+  --type-sm-2-size: 14px;
+  --type-sm-2-weight: 600;
+  --type-sm-2-line: 1.43;
+  --type-sm-3-font: var(--font-sf-pro-text);
+  --type-sm-3-size: 14px;
+  --type-sm-3-weight: 400;
+  --type-sm-3-line: 1.29;
+  --type-lg-font: var(--font-sf-pro-text);
+  --type-lg-size: 17px;
+  --type-lg-weight: 400;
+  --type-lg-line: 1.47;
+  --type-lg-2-font: var(--font-sf-pro-text);
+  --type-lg-2-size: 17px;
+  --type-lg-2-weight: 600;
+  --type-lg-2-line: 1.24;
+  --type-lg-3-font: var(--font-sf-pro-text);
+  --type-lg-3-size: 17px;
+  --type-lg-3-weight: 400;
+  --type-lg-3-line: 1.47;
+  --type-lg-4-font: var(--font-sf-pro-text);
+  --type-lg-4-size: 17px;
+  --type-lg-4-weight: 400;
+  --type-lg-4-line: 1.24;
+  --type-lg-5-font: var(--font-sf-pro-text);
+  --type-lg-5-size: 17px;
+  --type-lg-5-weight: 400;
+  --type-lg-5-line: 1.18;
+  --type-lg-6-font: var(--font-sf-pro-text);
+  --type-lg-6-size: 17px;
+  --type-lg-6-weight: 400;
+  --type-lg-6-line: 1;
+  --type-lg-7-font: var(--font-sf-pro-text);
+  --type-lg-7-size: 17px;
+  --type-lg-7-weight: 500;
+  --type-lg-7-line: 1.47;
+  --type-xl-font: var(--font-sf-pro-text);
+  --type-xl-size: 20px;
+  --type-xl-weight: 400;
+  --type-xl-line: 1.47;
+  --type-xl-2-font: var(--font-sf-pro-text);
+  --type-xl-2-size: 20px;
+  --type-xl-2-weight: 600;
+  --type-xl-2-line: 1.47;
+  --type-xl-3-font: var(--font-sf-pro-text);
+  --type-xl-3-size: 20px;
+  --type-xl-3-weight: 400;
+  --type-xl-3-line: 1.33;
+  --type-xl-4-font: var(--font-sf-pro-display);
+  --type-xl-4-size: 21px;
+  --type-xl-4-weight: 600;
+  --type-xl-4-line: 1.14;
+  --type-xl-5-font: var(--font-sf-pro-display);
+  --type-xl-5-size: 21px;
+  --type-xl-5-weight: 600;
+  --type-xl-5-line: 1.38;
+  --type-2xl-font: var(--font-sf-pro-display);
+  --type-2xl-size: 24px;
+  --type-2xl-weight: 600;
+  --type-2xl-line: 1.17;
+  --type-2xl-2-font: var(--font-sf-pro-display);
+  --type-2xl-2-size: 28px;
+  --type-2xl-2-weight: 600;
+  --type-2xl-2-line: 1.14;
+  --type-3xl-font: var(--font-sf-pro-display);
+  --type-3xl-size: 32px;
+  --type-3xl-weight: 700;
+  --type-3xl-line: 1.13;
+  --type-3xl-2-font: var(--font-sf-pro-display);
+  --type-3xl-2-size: 32px;
+  --type-3xl-2-weight: 600;
+  --type-3xl-2-line: 1.13;
+  --type-4xl-font: var(--font-sf-pro-display);
+  --type-4xl-size: 40px;
+  --type-4xl-weight: 600;
+  --type-4xl-line: 1.2;
+  --type-4xl-2-font: var(--font-sf-pro-text);
+  --type-4xl-2-size: 44px;
+  --type-4xl-2-weight: 400;
+  --type-4xl-2-line: 1;
+  --type-5xl-font: var(--font-sf-pro-display);
+  --type-5xl-size: 56px;
+  --type-5xl-weight: 700;
+  --type-5xl-line: 1.07;
+  --type-5xl-2-font: var(--font-sf-pro-display);
+  --type-5xl-2-size: 56px;
+  --type-5xl-2-weight: 600;
+  --type-5xl-2-line: 1.07;
+  --type-5xl-3-font: var(--font-sf-pro-display);
+  --type-5xl-3-size: 80px;
+  --type-5xl-3-weight: 700;
+  --type-5xl-3-line: 1.05;
+  --type-5xl-4-font: var(--font-sf-pro-display);
+  --type-5xl-4-size: 96px;
+  --type-5xl-4-weight: 600;
+  --type-5xl-4-line: 1.04;
 
   /* Typography - Weights */
   --font-weight-regular: 400;
@@ -2354,24 +2476,27 @@ body {
 
 .brand strong {
   color: var(--color-primary-ink);
-  font-size: 12px;
-  font-weight: 600;
+  font-size: var(--type-xs-5-size);
+  font-weight: var(--type-xs-5-weight);
+  line-height: var(--type-xs-5-line);
   letter-spacing: -0.12px;
 }
 
 .brand small {
   margin-top: 2px;
   color: var(--color-mid-gray);
-  font-size: 10px;
-  font-weight: 400;
+  font-size: var(--type-xs-2-size);
+  font-weight: var(--type-xs-2-weight);
+  line-height: var(--type-xs-2-line);
   letter-spacing: -0.12px;
 }
 
 .desktop-nav {
   gap: clamp(14px, 2vw, 28px);
   color: var(--color-deep-gray);
-  font-size: 12px;
-  font-weight: 400;
+  font-size: var(--type-xs-4-size);
+  font-weight: var(--type-xs-4-weight);
+  line-height: var(--type-xs-4-line);
 }
 
 .desktop-nav a::after,
@@ -2411,8 +2536,9 @@ body {
   min-height: 40px;
   border-radius: 980px;
   padding: 0 18px;
-  font-size: 17px;
-  font-weight: 400;
+  font-size: var(--type-lg-size);
+  font-weight: var(--type-lg-weight);
+  line-height: var(--type-lg-line);
   letter-spacing: -0.374px;
   box-shadow: none;
 }
@@ -2481,20 +2607,20 @@ h3,
 
 h1 {
   max-width: 980px;
-  font-size: clamp(3.4rem, 8vw, 6rem);
-  line-height: 1.04;
+  font-size: clamp(var(--type-5xl-size), 8vw, var(--type-5xl-4-size));
+  line-height: var(--type-5xl-4-line);
   letter-spacing: -1.44px;
 }
 
 h2 {
-  font-size: clamp(2.5rem, 5vw, 3.5rem);
-  line-height: 1.07;
+  font-size: clamp(var(--type-4xl-size), 5vw, var(--type-5xl-size));
+  line-height: var(--type-5xl-line);
   letter-spacing: -0.28px;
 }
 
 h3 {
-  font-size: clamp(1.5rem, 2.6vw, 2.5rem);
-  line-height: 1.14;
+  font-size: clamp(var(--type-2xl-size), 2.6vw, var(--type-4xl-size));
+  line-height: var(--type-4xl-line);
   letter-spacing: 0.007em;
 }
 
@@ -2511,14 +2637,15 @@ p,
 
 .lead {
   max-width: 720px;
-  font-size: clamp(1.15rem, 2vw, 1.45rem);
-  line-height: 1.38;
+  font-size: clamp(var(--type-lg-size), 2vw, var(--type-xl-4-size));
+  line-height: var(--type-xl-5-line);
 }
 
 .eyebrow {
   color: var(--color-ember);
-  font-size: 14px;
-  font-weight: 500;
+  font-size: var(--type-sm-size);
+  font-weight: var(--font-weight-medium);
+  line-height: var(--type-sm-line);
   letter-spacing: -0.224px;
   text-transform: none;
 }

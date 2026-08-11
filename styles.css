@@ -3017,6 +3017,373 @@ main > section:nth-of-type(odd) .service-menu-card {
   }
 }
 
+/* Compact premium rhythm pass */
+section,
+.portal-section {
+  padding-block: clamp(56px, 7vw, 88px);
+}
+
+h2 {
+  max-width: 920px;
+  font-size: clamp(2rem, 4vw, 4.1rem);
+  line-height: 1.06;
+  letter-spacing: -0.28px;
+}
+
+.section-head {
+  margin-bottom: clamp(24px, 4vw, 42px);
+  gap: 12px;
+}
+
+.section-head h2 {
+  max-width: 820px;
+}
+
+.lead {
+  font-size: clamp(1.05rem, 1.65vw, 1.45rem);
+  line-height: 1.38;
+}
+
+.capability-list,
+.card-grid,
+.course-grid,
+.directory-grid,
+.service-menu-grid,
+.access-grid,
+.philosophy-grid,
+.work-grid,
+.founder-projects,
+.portal-card-row {
+  gap: 12px;
+}
+
+.capability-list article,
+.info-card,
+.service-detail,
+.placeholder-block,
+.course-card,
+.module-card,
+.faq-card,
+.enroll-card,
+.price-card,
+.access-card,
+.service-menu-card,
+.booking-panel,
+.portal-course,
+.case-tile,
+.founder-meta article,
+.founder-pillars article,
+.founder-projects .project-row,
+.case-facts,
+.portal-status,
+.portal-sidebar,
+.module-group,
+.lesson-sidebar,
+.lesson-reader,
+.lesson-task,
+.admin-metrics article,
+.admin-panel,
+.admin-content > section,
+.admin-booking,
+.admin-manage-card,
+.admin-card,
+.price-options,
+.contact-form,
+.booking-detail-form,
+.admin-form,
+.founder-note,
+.lesson-card,
+.lesson-board {
+  min-height: auto;
+  padding: clamp(18px, 2.4vw, 24px);
+}
+
+.directory-card span,
+.capability-list span,
+.service-detail span,
+.case-tile p,
+.course-card .tag,
+.price-card .price,
+.portal-course span,
+.placeholder-block strong,
+.motion-badge,
+.booking-service span,
+.module-card > span,
+.faq-card > span,
+.info-card > span,
+.founder-meta span,
+.founder-pillars span,
+.founder-projects .project-row > span,
+.case-facts a,
+.portal-status span,
+.module-group span,
+.lesson-link span,
+.lesson-meta span,
+.booking-option span,
+.admin-metrics span,
+.admin-status-pill span,
+.admin-chip-list span,
+.expertise-cloud span,
+.price-options span {
+  margin-bottom: 14px;
+  padding: 8px 14px;
+  font-size: .78rem;
+}
+
+.directory-card h3,
+.capability-list h3,
+.info-card h3,
+.service-detail h3,
+.course-card h3,
+.module-card h3,
+.faq-card h3,
+.access-card h3,
+.service-menu-card h3,
+.portal-course h3,
+.case-tile h3 {
+  font-size: clamp(1.35rem, 2vw, 1.85rem);
+  line-height: 1.12;
+}
+
+.directory-card p,
+.capability-list p,
+.info-card p,
+.service-detail p,
+.placeholder-block span,
+.course-card p,
+.module-card p,
+.faq-card p,
+.price-card p,
+.access-card p,
+.service-menu-card p,
+.booking-panel p,
+.portal-course p,
+.case-tile small,
+.founder-pillars p,
+.founder-projects .project-row p,
+.founder-note p {
+  font-size: clamp(.96rem, 1.25vw, 1.08rem);
+  line-height: 1.45;
+}
+
+.founder-executive {
+  padding-top: clamp(104px, 10vw, 132px);
+  padding-bottom: clamp(42px, 6vw, 68px);
+}
+
+.founder-executive-layout {
+  gap: clamp(16px, 3vw, 28px);
+}
+
+.founder-executive .founder-copy {
+  gap: 10px;
+}
+
+.founder-executive .founder-copy h1 {
+  font-size: clamp(3rem, 7vw, 6rem);
+  line-height: .96;
+}
+
+.founder-executive .lead {
+  max-width: 700px;
+  font-size: clamp(1.04rem, 1.55vw, 1.35rem);
+  line-height: 1.4;
+}
+
+.founder-executive .founder-portrait {
+  width: min(100%, 760px);
+  border-radius: 30px;
+}
+
+.founder-executive .founder-portrait::after {
+  background: linear-gradient(to top, rgba(255,255,255,.42), rgba(255,255,255,0) 18%);
+}
+
+.founder-executive .founder-portrait img {
+  aspect-ratio: 5 / 4;
+  object-fit: cover;
+  object-position: center 28%;
+}
+
+.founder-executive-meta {
+  width: min(100%, 900px);
+  gap: 10px;
+}
+
+.founder-executive-meta article {
+  min-height: 118px;
+  padding: 20px;
+}
+
+.founder-quote {
+  padding-block: clamp(48px, 7vw, 84px);
+  overflow: hidden;
+}
+
+.founder-quote blockquote {
+  width: min(100%, 920px);
+  max-width: 920px;
+  font-size: clamp(1.65rem, 3.5vw, 3.45rem);
+  line-height: 1.1;
+  letter-spacing: -0.28px;
+}
+
+.philosophy-grid .module-card {
+  gap: 10px;
+  min-height: 0;
+}
+
+.philosophy-grid .module-card span {
+  margin-bottom: 8px;
+}
+
+.founder-bio-section .founder-note {
+  gap: 10px;
+}
+
+.founder-bio-section .founder-note p {
+  margin: 0;
+}
+
+@media (max-width: 680px) {
+  section,
+  .portal-section {
+    padding-block: 42px;
+    padding-inline: 14px;
+  }
+
+  h2 {
+    font-size: clamp(1.75rem, 8vw, 2.55rem);
+    line-height: 1.1;
+  }
+
+  .section-head {
+    margin-bottom: 22px;
+  }
+
+  .lead {
+    font-size: 1rem;
+    line-height: 1.42;
+  }
+
+  .capability-list article,
+  .info-card,
+  .service-detail,
+  .placeholder-block,
+  .course-card,
+  .module-card,
+  .faq-card,
+  .enroll-card,
+  .price-card,
+  .access-card,
+  .service-menu-card,
+  .booking-panel,
+  .portal-course,
+  .case-tile,
+  .founder-meta article,
+  .founder-pillars article,
+  .founder-projects .project-row,
+  .case-facts,
+  .portal-status,
+  .portal-sidebar,
+  .module-group,
+  .lesson-sidebar,
+  .lesson-reader,
+  .lesson-task,
+  .admin-metrics article,
+  .admin-panel,
+  .admin-content > section,
+  .admin-booking,
+  .admin-manage-card,
+  .admin-card,
+  .price-options,
+  .contact-form,
+  .booking-detail-form,
+  .admin-form,
+  .founder-note,
+  .lesson-card,
+  .lesson-board {
+    padding: 16px;
+    border-radius: 22px;
+  }
+
+  .founder-executive {
+    padding-top: 96px;
+    padding-bottom: 34px;
+  }
+
+  .founder-executive .founder-copy h1 {
+    font-size: clamp(2.7rem, 12vw, 4.2rem);
+  }
+
+  .founder-executive .founder-statement {
+    padding: 8px 14px;
+    font-size: .78rem;
+  }
+
+  .founder-executive .lead {
+    font-size: .98rem;
+  }
+
+  .founder-executive .founder-portrait {
+    width: min(100%, 430px);
+    border-radius: 24px;
+  }
+
+  .founder-executive .founder-portrait::after {
+    background: linear-gradient(to top, rgba(255,255,255,.18), rgba(255,255,255,0) 16%);
+  }
+
+  .founder-executive .founder-portrait img {
+    aspect-ratio: 4 / 4.45;
+    object-fit: cover;
+    object-position: center 18%;
+  }
+
+  .founder-executive-meta {
+    gap: 8px;
+  }
+
+  .founder-executive-meta article {
+    min-height: 0;
+    padding: 16px;
+  }
+
+  .founder-executive-meta strong {
+    font-size: 1.03rem;
+    line-height: 1.22;
+  }
+
+  .founder-quote {
+    padding-block: 42px;
+  }
+
+  .founder-quote blockquote {
+    font-size: clamp(1.38rem, 6vw, 2rem);
+    line-height: 1.14;
+    letter-spacing: 0;
+  }
+
+  .philosophy-grid {
+    gap: 10px;
+  }
+
+  .philosophy-grid .module-card {
+    gap: 8px;
+  }
+}
+
+@media (max-width: 430px) {
+  .founder-executive .founder-portrait img {
+    aspect-ratio: 4 / 4.75;
+    object-position: center 14%;
+  }
+
+  .founder-quote blockquote {
+    font-size: clamp(1.28rem, 6.2vw, 1.72rem);
+  }
+}
+
 /* Site-wide centered section headings and complete soft-card coverage */
 .section-head {
   flex-direction: column;

@@ -3046,6 +3046,198 @@ main > section:nth-of-type(odd) .service-menu-card {
   }
 }
 
+/* Prime animated homepage hero */
+.prime-landing-hero {
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  padding: 120px 18px clamp(38px, 7vh, 76px);
+  background: linear-gradient(180deg, #ff7a00 0%, #ffad55 100%) !important;
+  color: #ffffff !important;
+  isolation: isolate;
+}
+
+.prime-hero-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  display: grid;
+  place-items: center;
+  opacity: .78;
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(to bottom, #000 32%, transparent 94%);
+  mask-image: linear-gradient(to bottom, #000 32%, transparent 94%);
+}
+
+.prime-word {
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  color: #ffffff;
+  font-family: Inter, var(--font-display), system-ui, sans-serif;
+  font-size: clamp(130px, 28vw, 520px);
+  font-weight: 900;
+  letter-spacing: -.12em;
+  line-height: .75;
+  white-space: nowrap;
+  transform: translate(-48%, -50%) scale(1.08, 1.42);
+  transform-origin: center;
+}
+
+.prime-oval {
+  position: absolute;
+  left: 50%;
+  top: 48%;
+  width: clamp(100px, 18vw, 330px);
+  height: clamp(140px, 38vh, 520px);
+  border-radius: 999px;
+  background: #ffffff;
+  transform: translate(-50%, -50%) scaleY(1.24);
+}
+
+.prime-hero-video {
+  position: absolute;
+  inset: 0;
+  z-index: 4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(-4vh - 28px);
+  pointer-events: none;
+}
+
+.prime-hero-video video {
+  width: min(108vw, 940px);
+  height: min(76vh, 720px);
+  object-fit: contain;
+  mix-blend-mode: darken;
+  filter: saturate(1.08) contrast(1.04);
+}
+
+.prime-hero-content {
+  position: relative;
+  z-index: 10;
+  display: grid;
+  justify-items: center;
+  gap: 12px;
+  width: min(100%, 860px);
+  margin: 0 auto;
+  text-align: center;
+}
+
+.prime-hero-kicker {
+  border-radius: 999px;
+  padding: 8px 16px;
+  background: rgba(11,11,11,.9);
+  color: #ffffff !important;
+  font-size: .82rem;
+  font-weight: 800;
+}
+
+.prime-hero-content h1 {
+  margin: 0;
+  color: #ffffff !important;
+  font-family: Inter, var(--font-display), system-ui, sans-serif;
+  font-size: clamp(2.4rem, 8vw, 6.8rem);
+  font-weight: 900;
+  letter-spacing: -.08em;
+  line-height: .9;
+  text-shadow: 0 20px 80px rgba(0,0,0,.18);
+}
+
+.prime-hero-content p:not(.prime-hero-kicker) {
+  max-width: 650px;
+  color: rgba(255,255,255,.86) !important;
+  font-size: clamp(1rem, 2vw, 1.18rem);
+  line-height: 1.42;
+}
+
+.prime-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 4px;
+}
+
+.prime-home-button {
+  display: inline-flex;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border-radius: 999px;
+  padding: 0 22px;
+  background: #ffffff;
+  color: #b84a00;
+  font-weight: 900;
+  text-decoration: none;
+  box-shadow: 0 22px 60px rgba(0,0,0,.12);
+  transition: transform .35s cubic-bezier(.16, 1, .3, 1), box-shadow .35s ease;
+}
+
+.prime-home-button-dark {
+  background: #0b0b0b;
+  color: #ffffff;
+}
+
+.prime-home-button:hover {
+  transform: translateY(-2px) scale(1.02);
+  box-shadow: 0 28px 70px rgba(0,0,0,.18);
+}
+
+@media (max-width: 760px) {
+  .prime-landing-hero {
+    min-height: 100svh;
+    padding-top: 92px;
+    padding-bottom: 28px;
+  }
+
+  .prime-word {
+    top: 42%;
+    font-size: clamp(84px, 30vw, 160px);
+    letter-spacing: -.1em;
+    transform: translate(-48%, -50%) scale(1.08, 1.9);
+  }
+
+  .prime-oval {
+    top: 43%;
+    width: clamp(78px, 25vw, 140px);
+    height: 34vh;
+  }
+
+  .prime-hero-video {
+    margin-top: -11vh;
+  }
+
+  .prime-hero-video video {
+    width: 126vw;
+    height: 55vh;
+  }
+
+  .prime-hero-content {
+    gap: 9px;
+  }
+
+  .prime-hero-content h1 {
+    font-size: clamp(2.35rem, 13vw, 4rem);
+  }
+
+  .prime-hero-content p:not(.prime-hero-kicker) {
+    display: none;
+  }
+
+  .prime-home-button {
+    min-height: 44px;
+    padding: 0 18px;
+    font-size: .88rem;
+  }
+}
+
 /* Compact premium rhythm pass */
 section,
 .portal-section {
